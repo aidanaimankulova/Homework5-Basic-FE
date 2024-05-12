@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+}
+
+.conterner{
+    width: 810px;
+    height: 810px;
+    margin: 0 auto;
+}
+
+.container div{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+
+.block1{
+    background-color: brown;
+    top: 30px;
+    left: 50px;
+
+}
+
+.block2{
+    background-color: blue;
+    top: 80px;
+    left: 100px;
+    z-index: 1;
+}
+
+.block3{
+    background-color: green;
+    top: 130px;
+    left: 150px
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    padding: 10px;
+}
+
+nav{
+    background-color: palevioletred;
+    position: absolute;
+    width: 100%;
+    top: 870px;
+    left: 0;
+    bottom: 0;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+nav div{
+    color: white;
+    padding: 15px; 
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+ }
+
+ main{
+    border: 3px solid palevioletred;
+    width: 600px;
+    height: 870px;
+    border-radius: 16px;
+    margin: 10px auto;
+}
+
+.block{
+    font-size: 16px;
+    margin: 20px;
+    color: palevioletred;
+}
+
+h1{
+    margin: 20px;
+    color: palevioletred;
+}
